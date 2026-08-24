@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "P22 Mackinac W01 Book";
+    src: url("https://db.onlinewebfonts.com/t/9d4d074c9335825a23cce178ee03b498.eot");
+    src: url("https://db.onlinewebfonts.com/t/9d4d074c9335825a23cce178ee03b498.eot?#iefix") format("embedded-opentype"),
+         url("https://db.onlinewebfonts.com/t/9d4d074c9335825a23cce178ee03b498.woff2") format("woff2"),
+         url("https://db.onlinewebfonts.com/t/9d4d074c9335825a23cce178ee03b498.woff") format("woff"),
+         url("https://db.onlinewebfonts.com/t/9d4d074c9335825a23cce178ee03b498.ttf") format("truetype"),
+         url("https://db.onlinewebfonts.com/t/9d4d074c9335825a23cce178ee03b498.svg#P22 Mackinac W01 Book") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+    color: #191919;
+    background-color: #FFFFFF;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
