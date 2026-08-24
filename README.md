@@ -2,7 +2,11 @@
 
 Conversational AI platform landing page built with **React**, **TypeScript**, **Vite**, **Tailwind CSS**, and **Lucide React**.
 
-## 🚀 Live Demo & GitHub Pages Deployment (Yayınlama Rehberi)
+## 🌐 Live Website (Canlı Yayın)
+
+👉 **[https://yunusemre-celik.github.io/trust-flow/](https://yunusemre-celik.github.io/trust-flow/)**
+
+---
 
 Bu proje GitHub Pages üzerinde sorunsuz çalışacak şekilde (`base: './'` ve otomatik GitHub Actions CI/CD) yapılandırılmıştır.
 
